@@ -73,7 +73,13 @@ function ASLVideo() {
 
   return (
     <div className="main">
-      {modelLoaded ? (
+      <div className="best-prediction">
+        <p>
+          Label: {bestPrediction.label}
+          &nbsp;
+          Confidence: {bestPrediction.confidence.toFixed(2)}
+        </p>
+      </div>
         <Webcam
           audio={false}
           className="video-element"
@@ -81,17 +87,7 @@ function ASLVideo() {
           videoConstraints={videoConstraints}
           ref={webcamRef}
         />
-      ) : (
-        <div className="loading-indicator">Loading model...</div>
-      )}
-      <div className="best-prediction">
-        <h2>Best Prediction:</h2>
-        <p>
-          Label: {bestPrediction.label}
-          <br />
-          Confidence: {bestPrediction.confidence.toFixed(2)}
-        </p>
-      </div>
+      
     </div>
   );
 }

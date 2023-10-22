@@ -1,141 +1,53 @@
 .desktop-color {
-    background-color: #ffffff;
-    /* height: 888px; */
-    height: 108.29vh;
-    overflow: hidden;
-    position: relative;
-    /* width: 1461px; */
-    width: 101.45vw;
-  }
-  
-  .desktop-color .sign {
-    /* height: 141px; */
-    height: 17.19vh;
-    left: 22px;
-    object-fit: cover;
-    position: absolute;
-    top: 14px;
-    /* width: 335px; */
-    width: 23.26vw;
-  }
-  
-  .desktop-color .stop-button {
-    all: unset;
-    box-sizing: border-box;
-    /* height: 79px; */
-    height: 9.63vh;
-    left: 653px;
-    position: absolute;
-    top: 784px;
-    /* width: 157px; */
-    width: 10.90vw;
-  }
-  
-  .desktop-color .overlap-group-2 {
-    /* height: 79px; */
-    height: 9.63vh;
-    position: relative;
-    /* width: 155px; */
-    width: 10.76vw;
-  }
-  
-  .desktop-color .rectangle {
-    border: 6.4px solid;
-    border-color: #2ec4b6;
-    /* height: 79px; */
-    height: 9.63vh;
-    left: 0;
-    position: absolute;
-    top: 0;
-    /* width: 155px; */
-    width: 10.76vw;
-  }
-  
-  .desktop-color .text-wrapper-2 {
-    color: #2ec4b6;
-    font-family: "Roboto-ExtraBold", Helvetica;
-    font-size: 53.1px;
-    font-weight: 800;
-    left: 23px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 9px;
-    white-space: nowrap;
-  }
-  
-  .desktop-color .languages-button {
-    /* height: 46px; */
-    height: 5.60vh;
-    left: 1196px;
-    position: absolute;
-    top: 49px;
-    /* width: 230px; */
-    width: 15.97vw;
-  }
-  
-  .desktop-color .div {
-    color: #ff9f1c;
-    font-family: "Roboto-ExtraBold", Helvetica;
-    font-size: 38.1px;
-    font-weight: 800;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: -1px;
-    white-space: nowrap;
-    /* width: 199px; */
-    width: 13.81vw;
-  }
-  
-  .desktop-color .languages-caret {
-    /* height: 18px; */
-    height: 2.19vh;
-    left: 201px;
-    position: absolute;
-    top: 16px;
-    /* width: 24px; */
-    width: 1.66vw;
-  }
-  
-  .desktop-color .overlap {
-    background-color: #ff9f1c;
-    /* height: 124px; */
-    height: 15.12vh;
-    left: -22px;
-    position: absolute;
-    top: 208px;
-    /* width: 1536px; */
-    width: 106.66vw;
-  }
-  
-  .desktop-color .sign-language {
-    color: #ffffff;
-    font-family: "Roboto-ExtraBold", Helvetica;
-    font-size: 63.4px;
-    font-weight: 800;
-    left: 283px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 20px;
-    /* width: 972px; */
-    width: 67.5vw;
-  }
-  
-  .desktop-color .rectangle-2 {
-    background-color: #000000;
-    border: 10.15px solid;
-    border-color: #2ec4b6;
-    /* height: 396px; */
-    height: 48.29vh;
-    left: 323px;
-    position: absolute;
-    top: 360px;
-    /* width: 813px; */
-    width: 56.45vw;
-  }
+  background-color: #ffffff;
+  height: 100vh;
+  min-width: 100vw;
+  overflow: hidden;
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+}
+
+.logo {
+  margin-left: 2vw;
+}
+
+.languages-btn {
+  position: absolute;
+  right: 5vw;
+  top: 4vh;
+}
+
+.orange {
+  width: 100vw;
+  height: 15vh;
+  margin-top: 5vh;
+  background-color: #FF9F1C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 63.429px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.image {
+  height: auto;
+  max-width: 100%;
+}
+
+.image-box {
+  margin-top: 1vh;
+}
+
+.button-box {
+  margin-top: 3vh;
+}

@@ -1,27 +1,21 @@
 import React from 'react';
-import "../styles/HomePage.css"
-import sideImage from "../images/side-image.png"
-import logo from "../images/logo.png"
-import caret from "../images/lang-caret.png"
+import '../styles/HomePage.css';
 
 const HomePage = () => {
   return (
-
     <div className="desktop-color">
-      <img className="sign" alt="logo" src={logo} />
-      <button className="start-button">
-        <div className="overlap-group">
-          <div className="text-wrapper">Start</div>
-        </div>
-      </button>
-      <div className="languages-button">
-        <div className="div">Languages</div>
-        <img className="languages-caret" alt="Languages caret" src={caret} />
+      <img src='/logo.png' className='logo' />
+      <img src='/Languages-Button.png' className='languages-btn' />
+
+      <div className='orange'>
+        <h1 className='title'>Sign Language Detector</h1>
       </div>
-      <div className="overlap">
-        <div className="sign-language">SIGN LANGUAGE DETECTOR</div>
+      <div className='d-flex justify-content-center align-items-center image-box'>
+      <img src='/side-image.png' className='image'/>
       </div>
-      <img className="side-image" alt="Side image" src={sideImage}/>
+      <div className='d-flex justify-content-center align-items-center button-box'>
+      <img src='/Start-Button.png' />
+      </div>
     </div>
   );
 };
