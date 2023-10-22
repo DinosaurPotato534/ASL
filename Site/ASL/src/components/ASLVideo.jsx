@@ -26,7 +26,7 @@ function ASLVideo() {
           try {
             const webcam = webcamRef.current.video;
             const frame = tf.browser.fromPixels(webcam);
-            const resizedFrame = tf.image.resizeBilinear(frame, [224, 224]); // Ensure resizing to the input size
+            const resizedFrame = tf.image.resizeBilinear(frame, [224, 224]);
             const frameWithRGB = tf.tidy(() => {
               if (resizedFrame.shape[2] === 3) {
                 return resizedFrame;
