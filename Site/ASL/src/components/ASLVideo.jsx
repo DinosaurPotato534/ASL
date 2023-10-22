@@ -55,6 +55,8 @@ function ASLVideo() {
             frameWithRGB.dispose();
             normalizedFrame.dispose();
             prediction.dispose();
+
+            setTimeout(predictFrame, 5000);
           } catch (error) {
             console.error('Error in predictFrame:', error);
           }
