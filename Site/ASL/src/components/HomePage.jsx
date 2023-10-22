@@ -1,28 +1,25 @@
 import React from 'react';
 import "../styles/HomePage.css"
-import sideImage from "../images/side-image.png"
-import logo from "../images/logo.png"
-import caret from "../images/lang-caret.png"
 import {Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
 
     <div className="desktop-color">
-      <img className="sign" alt="logo" src={logo} />
-      <Link to ="/video"><button className="start-button">
-        <div className="overlap-group">
-          <div className="text-wrapper">Start</div>
-        </div>
-      </button></Link>
-      <div className="languages-button">
-        <div className="div">Languages</div>
-        <img className="languages-caret" alt="Languages caret" src={caret} />
+      <img src='/logo.png' className='logo' />
+
+      <div className='orange'>
+        <h1 className='title'>Sign Language Detector</h1>
       </div>
-      <div className="overlap">
-        <div className="sign-language">SIGN LANGUAGE DETECTOR</div>
+      <div className='d-flex justify-content-center align-items-center image-box'>
+      <img src='/side-image.png' className='image'/>
       </div>
-      <img className="side-image" alt="Side image" src={sideImage}/>
+      <div className='d-flex justify-content-center align-items-center button-box'>
+      <Link to="/video-eng"><img src='/English-Button.png' /></Link>
+      <Link to="/video-ind"><img src='/Indian-Button.png' style={{ marginLeft: 20 }}/></Link>
+      <Link to="/video-arab"><img src='/Arabic-Button.png' style={{ marginLeft: 20 }}/></Link>
+      <Link to="/video-span"><img src='/Spanish-Button.png' style={{ marginLeft: 20 }}/></Link>
+      </div>
     </div>
   );
 };

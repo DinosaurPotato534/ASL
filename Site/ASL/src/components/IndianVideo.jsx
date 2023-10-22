@@ -65,6 +65,7 @@ function IndianVideo() {
         }
 
         predictFrame();
+        setTimeout(predictFrame, 3000);
       } catch (error) {
         console.error('Error loading the model:', error);
       }
