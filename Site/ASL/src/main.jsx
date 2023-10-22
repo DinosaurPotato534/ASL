@@ -1,11 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './index.css'
+import HomePage from './components/HomePage'
 
-import ASLVideo from './components/ASLVideo'
+// import ASLVideo from './components/ASLVideo'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <ASLVideo />
+    <HomePage />
+    {/* <ASLVideo /> */}
   </React.StrictMode>,
 )

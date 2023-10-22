@@ -1,0 +1,110 @@
+.desktop-color {
+  background-color: #ffffff;
+  height: 888px;
+  overflow: hidden;
+  position: relative;
+  width: 1461px;
+}
+
+.desktop-color .sign {
+  height: 141px;
+  left: 22px;
+  object-fit: cover;
+  position: absolute;
+  top: 14px;
+  width: 335px;
+}
+
+.desktop-color .start-button {
+  all: unset;
+  box-sizing: border-box;
+  height: 79px;
+  left: 653px;
+  position: absolute;
+  top: 784px;
+  width: 157px;
+}
+
+.desktop-color .overlap-group {
+  border: 6.4px solid;
+  border-color: #ff9f1c;
+  height: 79px;
+  position: relative;
+  width: 155px;
+}
+
+.desktop-color .text-wrapper {
+  color: #ff9f1c;
+  font-family: "Roboto-ExtraBold", Helvetica;
+  font-size: 53.1px;
+  font-weight: 800;
+  left: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 3px;
+  white-space: nowrap;
+}
+
+.desktop-color .languages-button {
+  height: 46px;
+  left: 1196px;
+  position: absolute;
+  top: 51px;
+  width: 230px;
+}
+
+.desktop-color .div {
+  color: #ff9f1c;
+  font-family: "Roboto-ExtraBold", Helvetica;
+  font-size: 38.1px;
+  font-weight: 800;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  width: 199px;
+}
+
+.desktop-color .languages-caret {
+  height: 18px;
+  left: 201px;
+  position: absolute;
+  top: 16px;
+  width: 24px;
+}
+
+.desktop-color .overlap {
+  background-color: #ff9f1c;
+  height: 124px;
+  left: -22px;
+  position: absolute;
+  top: 208px;
+  width: 1536px;
+}
+
+.desktop-color .sign-language {
+  color: #ffffff;
+  font-family: "Roboto-ExtraBold", Helvetica;
+  font-size: 63.4px;
+  font-weight: 800;
+  left: 283px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 20px;
+  width: 972px;
+}
+
+.desktop-color .side-image {
+  height: 259px;
+  left: 440px;
+  object-fit: cover;
+  position: absolute;
+  top: 378px;
+  width: 582px;
+}
