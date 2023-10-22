@@ -1,4 +1,4 @@
-### Sign Sense
+# Sign Sense
 ## Inspiration
 
 ## What it does
