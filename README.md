@@ -6,10 +6,12 @@ According to the US National Institute of Health, individuals with hearing loss 
 - By leveraging deep-learning models built on the latest research but also our own innovative and agile thinking for quick training and implementation (relatively), the app interprets sign language gestures in real time, translating them into written or spoken language.
 - Tailored to various languages and dialects, it facilitates seamless communication, breaking down barriers to education and social interaction.
 - Inclusivity and accessibility: English (American Sign Language and Indian Sign Language), Arabic, Spanish, and Bangladeshi.
-- The app provides means not only to support communication but also self-learning/teaching sign language
+- The app provides means not only to support communication but also self-learning/teaching sign language,
 - This app is intended as a proof of concept, evidence of what thoughtful innovation, even just overnight, can make for improving millions of lives
 
 ## How we built it
+- The development of the project was inclusive of learning and deploying various technologies in tandem to produce an optimised web app, showing a specific use-case, and acting as a proof-of-concept for winder application of the current technologies
+- 
 
 ## Challenges we ran into
 - One of the biggest challenges was getting everyone's coding environment set up as we were implementing multiple frameworks across different programming languages and we had members using both Windows and Mac. We learned a lot from this as we developed team communication despite working online with people we had never met before. There was all the mutual support to get each other on par with the different technologies being deployed.
