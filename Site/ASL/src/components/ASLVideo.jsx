@@ -9,8 +9,8 @@ const confidenceThreshold = 0.5;
 function ASLVideo() {
   const webcamRef = useRef(null);
   const videoConstraints = {
-    width: 813,
-    height: 396,
+    width: 800,
+    height: 380,
     facingMode: 'user',
   };
   const [bestPrediction, setBestPrediction] = useState({ label: 'Undeterminable', confidence: 0 });
@@ -55,8 +55,6 @@ function ASLVideo() {
             frameWithRGB.dispose();
             normalizedFrame.dispose();
             prediction.dispose();
-
-            setTimeout(predictFrame, 3000);
           } catch (error) {
             console.error('Error in predictFrame:', error);
           }
@@ -75,13 +73,7 @@ function ASLVideo() {
 
   return (
     <div className="main">
-      <div className="best-prediction">
-        <p>
-          Label: {bestPrediction.label}
-          &nbsp;
-          Confidence: {bestPrediction.confidence.toFixed(2)}
-        </p>
-      </div>
+      {modelLoaded ? (
         <Webcam
           audio={false}
           className="video-element"
@@ -89,7 +81,17 @@ function ASLVideo() {
           videoConstraints={videoConstraints}
           ref={webcamRef}
         />
-      
+      ) : (
+        <div className="loading-indicator">Loading model...</div>
+      )}
+      <div className="best-prediction">
+        <h2>Best Prediction:</h2>
+        <p>
+          Label: {bestPrediction.label}
+          <br />
+          Confidence: {bestPrediction.confidence.toFixed(2)}
+        </p>
+      </div>
     </div>
   );
 }

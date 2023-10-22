@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/VideoPage.css";
+import logo from "../images/logo.png"
+import caret from "../images/lang-caret.png"
 import ASLVideo from "../components/ASLVideo.jsx"
 import {Link } from "react-router-dom";
 
@@ -17,12 +19,10 @@ const VideoPage = () => {
         <div className="div">Languages</div>
         <img className="languages-caret" alt="Languages caret" src={caret} />
       </div>
-      <div className='d-flex justify-content-center align-items-center image-box'>
-      <ASLVideo />
+      <div className="overlap">
+        <div className="sign-language">SIGN LANGUAGE DETECTOR</div>
       </div>
-      <div className='d-flex justify-content-center align-items-center button-box'>
-      <img src='/Stop-Button.png' />
-      </div>
+      <div className="rectangle-2"><ASLVideo /></div>
     </div>
   );
 };
