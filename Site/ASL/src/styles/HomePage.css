@@ -1,36 +1,44 @@
 .desktop-color {
   background-color: #ffffff;
-  height: 888px;
+  /* height: 888px; */
+  height: 108.29vh;
   overflow: hidden;
   position: relative;
-  width: 1461px;
+  /* width: 1461px; */
+  width: 101.45vw;
 }
 
 .desktop-color .sign {
-  height: 141px;
+  /* height: 141px; */
+  height: 17.19vh;
   left: 22px;
   object-fit: cover;
   position: absolute;
   top: 14px;
-  width: 335px;
+  /* width: 335px; */
+  width: 23.26vw;
 }
 
 .desktop-color .start-button {
   all: unset;
   box-sizing: border-box;
-  height: 79px;
+  /* height: 79px; */
+  height: 9.63vh;
   left: 653px;
   position: absolute;
   top: 784px;
-  width: 157px;
+  /* width: 157px; */
+  width: 10.90vw;
 }
 
 .desktop-color .overlap-group {
   border: 6.4px solid;
   border-color: #ff9f1c;
-  height: 79px;
+  /* height: 79px; */
+  height: 9.63vh;
   position: relative;
-  width: 155px;
+  /* width: 155px; */
+  width: 10.76vw;
 }
 
 .desktop-color .text-wrapper {
@@ -48,11 +56,13 @@
 }
 
 .desktop-color .languages-button {
-  height: 46px;
+  /* height: 46px; */
+  height: 5.60vh;
   left: 1196px;
   position: absolute;
   top: 51px;
-  width: 230px;
+  /* width: 230px; */
+  width: 15.97vw;
 }
 
 .desktop-color .div {
@@ -66,24 +76,29 @@
   position: absolute;
   text-align: center;
   top: -1px;
-  width: 199px;
+  /* width: 199px; */
+  width: 13.81vw;
 }
 
 .desktop-color .languages-caret {
-  height: 18px;
+  /* height: 18px; */
+  height: 2.19vh;
   left: 201px;
   position: absolute;
   top: 16px;
-  width: 24px;
+  /* width: 24px; */
+  width: 1.66vw;
 }
 
 .desktop-color .overlap {
   background-color: #ff9f1c;
-  height: 124px;
+  /* height: 124px; */
+  height: 15.12vh;
   left: -22px;
   position: absolute;
   top: 208px;
-  width: 1536px;
+  /* width: 1536px; */
+  width: 106.66vw;
 }
 
 .desktop-color .sign-language {
@@ -97,14 +112,17 @@
   position: absolute;
   text-align: center;
   top: 20px;
-  width: 972px;
+  /* width: 972px; */
+  width: 67.5vw;
 }
 
 .desktop-color .side-image {
-  height: 259px;
+  /* height: 259px; */
+  height: 31.58vh;
   left: 440px;
   object-fit: cover;
   position: absolute;
   top: 378px;
-  width: 582px;
+  /* width: 582px; */
+  width: 40.41vw;
 }

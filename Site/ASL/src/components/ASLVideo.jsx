@@ -9,8 +9,8 @@ const confidenceThreshold = 0.5;
 function ASLVideo() {
   const webcamRef = useRef(null);
   const videoConstraints = {
-    width: 224,
-    height: 224,
+    width: 813,
+    height: 396,
     facingMode: 'user',
   };
   const [bestPrediction, setBestPrediction] = useState({ label: 'Undeterminable', confidence: 0 });
