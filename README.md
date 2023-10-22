@@ -22,4 +22,9 @@ According to the US National Institute of Health, individuals with hearing loss 
 ## What we learned
 
 ## What's next for Sign Sense
+- Refinement and Optimization: As we'll have more time we'll refine deep-learning models, applying 3D CNN layers to video data to apply the technology to not just letters but a wide host of Sign Language *communication and teaching requirements*.
+- Developing Inclusive AI: We have done research into biases that build up in certain models due to the larger presence of certain groups of people in the dataset; we'll use techniques like adversarial attacks to make the app's AI truly *inclusive and accessible*.
+- Real-Time Performance: Optimize algorithms for faster real-time translation. This would have already been done, but often such models take very long times to train and don't fit into the iterative flow over the 24 hours that were required to deliver this project.
+- User Testing: We agree that the project will benefit greatly from extensive user testing with diverse communities to gather feedback for interface improvements - focusing on making it extremely accessible to the people who most need it!
+- Democratize decisions and scale open-source: The only way to have an impact is to include the people we're impacting in our decision-making. We would like to work towards making this a popular open-source hub for hackers, researchers, and most of all, every person who feels touched by the effect of the problem we are solving.
 
