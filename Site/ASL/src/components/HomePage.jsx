@@ -1,16 +1,4 @@
 import React from 'react';
-<<<<<<< Updated upstream
-import '../styles/HomePage.css';
-
-const HomePage = () => {
-  return (
-    <div className="desktop-color">
-      <img src='/logo.png' className='logo' />
-      <img src='/Languages-Button.png' className='languages-btn' />
-
-      <div className='orange'>
-        <h1 className='title'>Sign Language Detector</h1>
-=======
 import "../styles/HomePage.css"
 import sideImage from "../images/side-image.png"
 import logo from "../images/logo.png"
@@ -30,7 +18,6 @@ const HomePage = () => {
       <div className="languages-button">
         <div className="div">Languages</div>
         <img className="languages-caret" alt="Languages caret" src={caret} />
->>>>>>> Stashed changes
       </div>
       <div className='d-flex justify-content-center align-items-center image-box'>
       <img src='/side-image.png' className='image'/>
