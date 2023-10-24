@@ -86,11 +86,9 @@ function ArabicVideo() {
         <div className="loading-indicator">Loading model...</div>
       )}
       <div className="best-prediction">
-        <h2>Best Prediction:</h2>
+        <h2>Signed:</h2>
         <p>
-          Label: {bestPrediction.label}
-          <br />
-          Confidence: {bestPrediction.confidence.toFixed(2)}
+          {bestPrediction.label}
         </p>
       </div>
     </div>

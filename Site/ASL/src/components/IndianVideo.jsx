@@ -77,10 +77,9 @@ function IndianVideo() {
   return (
     <div className="main">
       <div className="best-prediction">
+        <h2>Signed:</h2>
         <p>
-          Label: {bestPrediction.label}
-          &nbsp;
-          Confidence: {bestPrediction.confidence.toFixed(2)}
+          {bestPrediction.label}
         </p>
       </div>
         <Webcam
